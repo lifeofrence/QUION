@@ -1,3 +1,7 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,7 +52,7 @@
         <div class="container mx-auto px-6 py-3">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <img src="./logo.png" alt="QuION Logo" class="h-12 mr-4">
+                    <img src="/img/logo.png" alt="QuION Logo" class="h-12 mr-4">
                     <span class="text-xl font-bold text-blue-900">QuION</span>
                 </div>
                 <div class="hidden md:flex space-x-8">
@@ -91,33 +95,19 @@
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div data-aos="fade-right">
                     <h3 class="text-2xl font-bold mb-6 text-blue-900">Introduction</h3>
-                    <p class="mb-6 text-gray-700 leading-relaxed">QuION Nigeria Limited was incorporated as a Limited
-                        Liability Company under the Companies and Allied Matters Decree. We are dedicated to providing
-                        top-tier consultancy services, research and development, and specialized engineering solutions
-                        in areas such as computer engineering, electrical engineering, communications, instrumentation
-                        engineering, project management, and supply chain management.</p>
+                    <p class="mb-6 text-gray-700 leading-relaxed text-justify">QuION Nigeria Limited was incorporated as a Limited Liability Company under the Companies and Allied Matters Decree. We are dedicated to providing top-tier consultancy services, research and development, and specialized engineering solutions in areas such as computer engineering, electrical engineering, communications, instrumentation engineering, project management, and supply chain management, mobile solution, I.T audit, renewable Energy solution, Digitization services and Automation.</p>
 
                     <h3 class="text-2xl font-bold mb-6 text-blue-900 mt-10">Our Mission</h3>
-                    <p class="mb-6 text-gray-700 leading-relaxed">Our primary mission is to elevate the quality of
-                        services in Nigeria to standards obtainable in the most developed countries. We aim to achieve
-                        this by applying high standards and fresh ideas to improve the industry, fostering growth and
-                        competitiveness.</p>
+                    <p class="mb-6 text-gray-700 leading-relaxed text-justify">Our mission is to deliver cutting-edge IT solutions that drive digital transformation, enhance operational efficiency, and provide exceptional value. We are committed to quality, innovation, and customer success through expert consultation, agile development, and 24/7 support. </p>
                 </div>
 
                 <div data-aos="fade-left">
                     <div class="bg-white p-8 rounded-lg shadow-lg">
                         <h3 class="text-2xl font-bold mb-6 text-blue-900">Our Vision</h3>
-                        <p class="mb-6 text-gray-700 leading-relaxed">We are under no illusion about the challenges in
-                            our areas of interest, but our outlook is cautious while excellence remains the propelling
-                            focus. We strive to build a technologically advanced Nigeria, leading our foreign
-                            contemporaries in service delivery both now and in the future.</p>
+                        <p class="mb-6 text-gray-700 leading-relaxed text-justify">To empower businesses and communities through innovative, reliable, and sustainable technology solutions that shape a smarter, more connected future.</p>
 
-                        <h3 class="text-2xl font-bold mb-6 text-blue-900 mt-10">Management Team</h3>
-                        <p class="mb-6 text-gray-700 leading-relaxed">Our company is managed by dynamic professionals
-                            with extensive experience in both public and private sectors. The team comprises qualified
-                            information technology and communications experts with over 35 years of collective
-                            experience in technology and management, ensuring strategic leadership and innovative
-                            solutions.</p>
+                        <h3 class="text-2xl font-bold mb-6 text-blue-900 mt-10">Our Team</h3>
+                        <p class="mb-6 text-gray-700 leading-relaxed text-justify">We have dynamic professionals who have served in various capacities in both the public and private sectors run the management of the company. The staff strength is made of qualified Information Technology and Communications professionals with over 35 years’ experience in technology and management. </p>
                     </div>
                 </div>
             </div>
@@ -132,75 +122,45 @@
                 <div class="w-20 h-1 bg-blue-900 mx-auto"></div>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- Service 1 -->
                 <div class="service-card bg-white p-8 rounded-lg shadow-md border border-gray-100 transition duration-300"
                     data-aos="fade-up" data-aos-delay="100">
                     <div class="text-blue-900 mb-4">
-                        <i data-feather="briefcase" class="w-10 h-10"></i>
+                        <i data-feather="smartphone" class="w-10 h-10"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4 text-blue-900">Consultancy Services</h3>
-                    <p class="text-gray-700">Expert advice and project management from engineers, computer scientists,
-                        and project managers with extensive experience, utilizing tools like Work Breakdown Structures
-                        and Microsoft Project.</p>
+                    <h3 class="text-xl font-bold mb-4 text-blue-900">Mobile Solutions</h3>
+                    <p class="text-gray-700 text-justify">Specialized technology and software solutions for mobile devices, including mobile applications, payment solutions, enterprise solutions, and device management (MDM) to enhance mobility and efficiency.</p>
                 </div>
 
                 <!-- Service 2 -->
                 <div class="service-card bg-white p-8 rounded-lg shadow-md border border-gray-100 transition duration-300"
                     data-aos="fade-up" data-aos-delay="200">
                     <div class="text-blue-900 mb-4">
-                        <i data-feather="clipboard" class="w-10 h-10"></i>
+                        <i data-feather="shield" class="w-10 h-10"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4 text-blue-900">Project Management</h3>
-                    <p class="text-gray-700">Oversees design, bidding, and execution using Prince2 or PMI methodologies,
-                        coordinating tender documents, contractor selection, material scheduling, progress monitoring.
-                    </p>
+                    <h3 class="text-xl font-bold mb-4 text-blue-900">I.T Audit</h3>
+                    <p class="text-gray-700 text-justify">Comprehensive evaluation of information systems, management controls, policies, and infrastructure to ensure system security and data reliability for organizations.</p>
                 </div>
 
                 <!-- Service 3 -->
                 <div class="service-card bg-white p-8 rounded-lg shadow-md border border-gray-100 transition duration-300"
                     data-aos="fade-up" data-aos-delay="300">
                     <div class="text-blue-900 mb-4">
-                        <i data-feather="shopping-cart" class="w-10 h-10"></i>
+                        <i data-feather="sun" class="w-10 h-10"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4 text-blue-900">Procurement</h3>
-                    <p class="text-gray-700">Specializes in sourcing computer systems, telecom equipment, and power
-                        solutions, leveraging dynamic supply chain management and CIPS training for competitive pricing.
-                    </p>
+                    <h3 class="text-xl font-bold mb-4 text-blue-900">Renewable Energy Solutions</h3>
+                    <p class="text-gray-700 text-justify">Sustainable energy solutions including solar powered streetlights, hydropower plants, renewable energy microgrids, and solar power systems (inverters, batteries, panels) for eco-friendly power generation.</p>
                 </div>
 
                 <!-- Service 4 -->
                 <div class="service-card bg-white p-8 rounded-lg shadow-md border border-gray-100 transition duration-300"
-                    data-aos="fade-up" data-aos-delay="100">
+                    data-aos="fade-up" data-aos-delay="400">
                     <div class="text-blue-900 mb-4">
-                        <i data-feather="wifi" class="w-10 h-10"></i>
+                        <i data-feather="hard-drive" class="w-10 h-10"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4 text-blue-900">Communications Services</h3>
-                    <p class="text-gray-700">Provides cost-effective voice, video, and data solutions with innovative
-                        designs, supported by a skilled team undergoing regular training to meet diverse project needs.
-                    </p>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-md border border-gray-100 transition duration-300"
-                    data-aos="fade-up" data-aos-delay="200">
-                    <div class="text-blue-900 mb-4">
-                        <i data-feather="settings" class="w-10 h-10"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-4 text-blue-900">Full Turnkey Solutions</h3>
-                    <p class="text-gray-700">Delivers end-to-end services including design, installation, testing, and
-                        long-term management, tailored for telecom operators, government agencies, and businesses.</p>
-                </div>
-
-                <!-- Service 6 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-md border border-gray-100 transition duration-300"
-                    data-aos="fade-up" data-aos-delay="300">
-                    <div class="text-blue-900 mb-4">
-                        <i data-feather="cpu" class="w-10 h-10"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-4 text-blue-900">Engineering & Installation</h3>
-                    <p class="text-gray-700">Deploys nationwide solutions like network installations, tower civil works,
-                        microwave radio setups, and fiber optic systems, adhering to high engineering standards.</p>
+                    <h3 class="text-xl font-bold mb-4 text-blue-900">Digitization Services</h3>
+                    <p class="text-gray-700 text-justify">Converting physical information to digital formats, enabling improved accessibility, searchability, automation, and remote work capabilities while reducing storage space and enhancing productivity.</p>
                 </div>
             </div>
         </div>
@@ -256,7 +216,7 @@
             </div>
 
             <div class="text-center mt-12">
-                <a href="./project.html"
+                <a href="/project.html"
                     class="inline-block px-8 py-3 bg-blue-900 text-white rounded-full font-semibold hover:bg-blue-800 transition">View
                     All Projects</a>
             </div>
@@ -275,25 +235,33 @@
 
             <div class="grid md:grid-cols-2 gap-12">
                 <div data-aos="fade-right">
-                    <form class="space-y-6">
+
+                    <form class="space-y-6 contact-form" action="send_email.php" method="post">
+                        <?php
+                        // Check if there is a message in the URL
+                        if (isset($_GET['message'])) {
+                            $message = $_GET['message'];
+                            echo "<p>$message</p>";
+                        }
+                        ?>
                         <div>
                             <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
-                            <input type="text" id="name"
+                            <input type="text" id="name" name="name"
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent">
                         </div>
                         <div>
                             <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
-                            <input type="email" id="email"
+                            <input type="email" id="email" name="email"
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent">
                         </div>
                         <div>
                             <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
-                            <input type="text" id="subject"
+                            <input type="text" id="subject" name="subject"
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent">
                         </div>
                         <div>
                             <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
-                            <textarea id="message" rows="5"
+                            <textarea id="message" rows="5" accesskey="m" name="message"
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent"></textarea>
                         </div>
                         <button type="submit"
@@ -313,7 +281,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold text-gray-800">Head Office</h4>
-                                    <p class="text-gray-700"> Abuja, Nigeria</p>
+                                    <p class="text-gray-700"> 35 Lusaka Street Wuse Zone 6, Abuja.</p>
                                 </div>
                             </div>
 
@@ -323,8 +291,8 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold text-gray-800">Email Us</h4>
-                                    <p class="text-gray-700">info@quionnigeria.com</p>
-                                    <p class="text-gray-700">support@quionnigeria.com</p>
+                                    <p class="text-gray-700">info@quionltd.com</p>
+                                    <!-- <p class="text-gray-700">support@quionnigeria.com</p> -->
                                 </div>
                             </div>
 
@@ -346,7 +314,7 @@
                                 <div>
                                     <h4 class="font-semibold text-gray-800">Working Hours</h4>
                                     <p class="text-gray-700">Monday - Friday: 8:00 AM - 5:00 PM</p>
-                                    <p class="text-gray-700">Saturday: 9:00 AM - 1:00 PM</p>
+                                    <!-- <p class="text-gray-700">Saturday: 9:00 AM - 1:00 PM</p> -->
                                 </div>
                             </div>
                         </div>
@@ -361,7 +329,7 @@
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-4 gap-8">
                 <div>
-                    <img src="logo.png" alt="QuION Logo" class="h-12 mb-4">
+                    <img src="/img/logo.png" alt="QuION Logo" class="h-12 mb-4">
                     <p class="mb-4">Engineering excellence and technology solutions for a better Nigeria.</p>
                     <div class="flex space-x-4">
                         <a href="#" class="hover:text-blue-300 transition"><i data-feather="facebook"></i></a>
@@ -385,11 +353,11 @@
                 <div>
                     <h3 class="text-lg font-bold mb-4">Services</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-blue-300 transition">Consultancy</a></li>
-                        <li><a href="#" class="hover:text-blue-300 transition">Project Management</a></li>
-                        <li><a href="#" class="hover:text-blue-300 transition">Procurement</a></li>
-                        <li><a href="#" class="hover:text-blue-300 transition">Communications</a></li>
-                        <li><a href="#" class="hover:text-blue-300 transition">Engineering Solutions</a></li>
+                        <li><a href="#" class="hover:text-blue-300 transition">Mobile Solutions</a></li>
+                        <li><a href="#" class="hover:text-blue-300 transition">I.T audit </a></li>
+                        <li><a href="#" class="hover:text-blue-300 transition">Renewable Energy Solution</a></li>
+                        <li><a href="#" class="hover:text-blue-300 transition">Digitization services</a></li>
+
                     </ul>
                 </div>
 
